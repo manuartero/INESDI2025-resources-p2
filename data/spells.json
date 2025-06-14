@@ -1,0 +1,3115 @@
+[
+  {
+    "id": "acid-splash",
+    "url": "https://bg3.wiki/wiki/Acid_Splash",
+    "name": "Acid Splash",
+    "icon": "https://bg3.wiki/w/images/thumb/9/99/Acid_Splash_Icon.webp/40px-Acid_Splash_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft 2m / 7ft (Radius)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "1d6",
+        "damageType": "Acid"
+      }
+    ]
+  },
+  {
+    "id": "blade-ward",
+    "url": "https://bg3.wiki/wiki/Blade_Ward",
+    "name": "Blade Ward",
+    "icon": "https://bg3.wiki/w/images/thumb/0/04/Blade_Ward_Icon.webp/40px-Blade_Ward_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "bone-chill",
+    "url": "https://bg3.wiki/wiki/Bone_Chill",
+    "name": "Bone Chill",
+    "icon": "https://bg3.wiki/w/images/thumb/0/03/Bone_Chill_Icon.webp/40px-Bone_Chill_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "18 m /  60ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d8",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "booming-blade",
+    "url": "https://bg3.wiki/wiki/Booming_Blade",
+    "name": "Booming Blade",
+    "icon": "https://bg3.wiki/w/images/thumb/f/fd/Booming_Blade_Icon.webp/40px-Booming_Blade_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "Weapon Range",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d8",
+        "damageType": "Thunder",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "bursting-sinew",
+    "url": "https://bg3.wiki/wiki/Bursting_Sinew",
+    "name": "Bursting Sinew",
+    "icon": "https://bg3.wiki/w/images/thumb/0/0f/Bursting_Sinew_Icon.webp/40px-Bursting_Sinew_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 3m / 10ft (Radius)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "1d10",
+        "damageType": "Piercing"
+      }
+    ]
+  },
+  {
+    "id": "dancing-lights",
+    "url": "https://bg3.wiki/wiki/Dancing_Lights",
+    "name": "Dancing Lights",
+    "icon": "https://bg3.wiki/w/images/thumb/b/ba/Dancing_Lights_Icon.webp/40px-Dancing_Lights_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m /  60ft 9m / 30ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "eldritch-blast",
+    "url": "https://bg3.wiki/wiki/Eldritch_Blast",
+    "name": "Eldritch Blast",
+    "icon": "https://bg3.wiki/w/images/thumb/d/db/Eldritch_Blast_Icon.webp/40px-Eldritch_Blast_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d10",
+        "damageType": "Force"
+      }
+    ]
+  },
+  {
+    "id": "fire-bolt",
+    "url": "https://bg3.wiki/wiki/Fire_Bolt",
+    "name": "Fire Bolt",
+    "icon": "https://bg3.wiki/w/images/thumb/2/23/Fire_Bolt_Icon.webp/40px-Fire_Bolt_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d10",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "friends",
+    "url": "https://bg3.wiki/wiki/Friends",
+    "name": "Friends",
+    "icon": "https://bg3.wiki/w/images/thumb/7/75/Friends_Icon.webp/40px-Friends_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "guidance",
+    "url": "https://bg3.wiki/wiki/Guidance",
+    "name": "Guidance",
+    "icon": "https://bg3.wiki/w/images/thumb/7/7f/Guidance_Icon.webp/40px-Guidance_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "light",
+    "url": "https://bg3.wiki/wiki/Light",
+    "name": "Light",
+    "icon": "https://bg3.wiki/w/images/thumb/5/5c/Light_Icon.webp/40px-Light_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "mage-hand",
+    "url": "https://bg3.wiki/wiki/Mage_Hand",
+    "name": "Mage Hand",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f9/Mage_Hand_Icon.webp/40px-Mage_Hand_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "minor-illusion",
+    "url": "https://bg3.wiki/wiki/Minor_Illusion",
+    "name": "Minor Illusion",
+    "icon": "https://bg3.wiki/w/images/thumb/9/9d/Minor_Illusion_Icon.webp/40px-Minor_Illusion_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "poison-spray",
+    "url": "https://bg3.wiki/wiki/Poison_Spray",
+    "name": "Poison Spray",
+    "icon": "https://bg3.wiki/w/images/thumb/1/1d/Poison_Spray_Icon.webp/40px-Poison_Spray_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "3 m /  10ft",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "1d12",
+        "damageType": "Poison"
+      }
+    ]
+  },
+  {
+    "id": "produce-flame",
+    "url": "https://bg3.wiki/wiki/Produce_Flame",
+    "name": "Produce Flame",
+    "icon": "https://bg3.wiki/w/images/thumb/e/ec/Produce_Flame_Icon.webp/40px-Produce_Flame_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self",
+    "type": "-",
+    "damage": [
+      {
+        "dice": "1d8",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "ray-of-frost",
+    "url": "https://bg3.wiki/wiki/Ray_of_Frost",
+    "name": "Ray of Frost",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f9/Ray_of_Frost_Icon.webp/40px-Ray_of_Frost_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "18 m /  60ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d8",
+        "damageType": "Cold"
+      }
+    ]
+  },
+  {
+    "id": "resistance-cantrip",
+    "url": "https://bg3.wiki/wiki/Resistance_(Cantrip)",
+    "name": "Resistance (Cantrip)",
+    "icon": "https://bg3.wiki/w/images/thumb/a/a1/Resistance_Cantrip_Icon.webp/40px-Resistance_Cantrip_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "sacred-flame",
+    "url": "https://bg3.wiki/wiki/Sacred_Flame",
+    "name": "Sacred Flame",
+    "icon": "https://bg3.wiki/w/images/thumb/1/16/Sacred_Flame_Icon.webp/40px-Sacred_Flame_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "1d8",
+        "damageType": "Radiant"
+      }
+    ]
+  },
+  {
+    "id": "shillelagh",
+    "url": "https://bg3.wiki/wiki/Shillelagh",
+    "name": "Shillelagh",
+    "icon": "https://bg3.wiki/w/images/thumb/6/68/Shillelagh_Icon.webp/40px-Shillelagh_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "10 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "shocking-grasp",
+    "url": "https://bg3.wiki/wiki/Shocking_Grasp",
+    "name": "Shocking Grasp",
+    "icon": "https://bg3.wiki/w/images/thumb/2/2f/Shocking_Grasp_Icon.webp/40px-Shocking_Grasp_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "1.5 m / 5 ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d8",
+        "damageType": "Lightning"
+      }
+    ]
+  },
+  {
+    "id": "thaumaturgy",
+    "url": "https://bg3.wiki/wiki/Thaumaturgy",
+    "name": "Thaumaturgy",
+    "icon": "https://bg3.wiki/w/images/thumb/3/3f/Thaumaturgy_Icon.webp/40px-Thaumaturgy_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "thorn-whip",
+    "url": "https://bg3.wiki/wiki/Thorn_Whip",
+    "name": "Thorn Whip",
+    "icon": "https://bg3.wiki/w/images/thumb/e/e8/Thorn_Whip_Icon.webp/40px-Thorn_Whip_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "9 m /  30ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d6",
+        "damageType": "Piercing"
+      }
+    ]
+  },
+  {
+    "id": "toll-the-dead",
+    "url": "https://bg3.wiki/wiki/Toll_the_Dead",
+    "name": "Toll the Dead",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c0/Toll_the_Dead_Icon.webp/40px-Toll_the_Dead_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": [
+      {
+        "dice": "1d12",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "true-strike",
+    "url": "https://bg3.wiki/wiki/True_Strike",
+    "name": "True Strike",
+    "icon": "https://bg3.wiki/w/images/thumb/4/47/True_Strike_Icon.webp/40px-True_Strike_Icon.webp.png",
+    "level": 0,
+    "upcast": false,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "vicious-mockery",
+    "url": "https://bg3.wiki/wiki/Vicious_Mockery",
+    "name": "Vicious Mockery",
+    "icon": "https://bg3.wiki/w/images/thumb/6/66/Vicious_Mockery_Icon.webp/40px-Vicious_Mockery_Icon.webp.png",
+    "level": 0,
+    "upcast": true,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "18 m /  60ft",
+    "type": "WIS save",
+    "damage": [
+      {
+        "dice": "1d4",
+        "damageType": "Psychic"
+      }
+    ]
+  },
+  {
+    "id": "animal-friendship",
+    "url": "https://bg3.wiki/wiki/Animal_Friendship",
+    "name": "Animal Friendship",
+    "icon": "https://bg3.wiki/w/images/thumb/3/36/Animal_Friendship_Icon.webp/40px-Animal_Friendship_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "armour-of-agathys",
+    "url": "https://bg3.wiki/wiki/Armour_of_Agathys",
+    "name": "Armour of Agathys",
+    "icon": "https://bg3.wiki/w/images/thumb/7/77/Armour_of_Agathys_Icon.webp/40px-Armour_of_Agathys_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self",
+    "type": "-"
+  },
+  {
+    "id": "arms-of-hadar",
+    "url": "https://bg3.wiki/wiki/Arms_of_Hadar",
+    "name": "Arms of Hadar",
+    "icon": "https://bg3.wiki/w/images/thumb/3/3e/Arms_of_Hadar_Icon.webp/40px-Arms_of_Hadar_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "Self 3m / 10ft (Radius)",
+    "type": "STR save",
+    "damage": [
+      {
+        "dice": "2d6",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "bane-spell",
+    "url": "https://bg3.wiki/wiki/Bane_(spell)",
+    "name": "Bane (spell)",
+    "icon": "https://bg3.wiki/w/images/thumb/1/19/Bane_spell_Icon.webp/40px-Bane_spell_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "9 m /  30ft",
+    "type": "CHA save",
+    "damage": []
+  },
+  {
+    "id": "bless",
+    "url": "https://bg3.wiki/wiki/Bless",
+    "name": "Bless",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c4/Bless_Icon.webp/40px-Bless_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "burning-hands",
+    "url": "https://bg3.wiki/wiki/Burning_Hands",
+    "name": "Burning Hands",
+    "icon": "https://bg3.wiki/w/images/thumb/c/cf/Burning_Hands_Icon.webp/40px-Burning_Hands_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "Self 5m / 17ft (Cone)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "3d6",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "charm-person",
+    "url": "https://bg3.wiki/wiki/Charm_Person",
+    "name": "Charm Person",
+    "icon": "https://bg3.wiki/w/images/thumb/b/bc/Charm_Person_Icon.webp/40px-Charm_Person_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "chromatic-orb",
+    "url": "https://bg3.wiki/wiki/Chromatic_Orb",
+    "name": "Chromatic Orb",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8e/Chromatic_Orb_Icon.webp/40px-Chromatic_Orb_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "Attack roll",
+    "damage": []
+  },
+  {
+    "id": "colour-spray",
+    "url": "https://bg3.wiki/wiki/Colour_Spray",
+    "name": "Colour Spray",
+    "icon": "https://bg3.wiki/w/images/thumb/2/24/Colour_Spray_Icon.webp/40px-Colour_Spray_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "Self 5m / 17ft (Cone)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "command",
+    "url": "https://bg3.wiki/wiki/Command",
+    "name": "Command",
+    "icon": "https://bg3.wiki/w/images/thumb/7/7f/Command_Halt_Icon.webp/40px-Command_Halt_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "compelled-duel",
+    "url": "https://bg3.wiki/wiki/Compelled_Duel",
+    "name": "Compelled Duel",
+    "icon": "https://bg3.wiki/w/images/thumb/7/73/Compelled_Duel_Icon.webp/40px-Compelled_Duel_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "3 turns",
+    "range": "9 m /  30ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "create-or-destroy-water",
+    "url": "https://bg3.wiki/wiki/Create_or_Destroy_Water",
+    "name": "Create or Destroy Water",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d1/Create_Water_Icon.webp/40px-Create_Water_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "9 m /  30ft 4m / 13ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "cure-wounds",
+    "url": "https://bg3.wiki/wiki/Cure_Wounds",
+    "name": "Cure Wounds",
+    "icon": "https://bg3.wiki/w/images/thumb/4/40/Cure_Wounds_Icon.webp/40px-Cure_Wounds_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "-"
+  },
+  {
+    "id": "disguise-self",
+    "url": "https://bg3.wiki/wiki/Disguise_Self",
+    "name": "Disguise Self",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8d/Disguise_Self_Icon.webp/40px-Disguise_Self_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "dissonant-whispers",
+    "url": "https://bg3.wiki/wiki/Dissonant_Whispers",
+    "name": "Dissonant Whispers",
+    "icon": "https://bg3.wiki/w/images/thumb/4/40/Dissonant_Whispers_Icon.webp/40px-Dissonant_Whispers_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": [
+      {
+        "dice": "3d6",
+        "damageType": "Psychic"
+      }
+    ]
+  },
+  {
+    "id": "divine-favour",
+    "url": "https://bg3.wiki/wiki/Divine_Favour",
+    "name": "Divine Favour",
+    "icon": "https://bg3.wiki/w/images/thumb/4/44/Divine_Favour_Icon.webp/40px-Divine_Favour_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "3 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "enhance-leap",
+    "url": "https://bg3.wiki/wiki/Enhance_Leap",
+    "name": "Enhance Leap",
+    "icon": "https://bg3.wiki/w/images/thumb/4/46/Enhance_Leap_Icon.webp/40px-Enhance_Leap_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "ensnaring-strike",
+    "url": "https://bg3.wiki/wiki/Ensnaring_Strike",
+    "name": "Ensnaring Strike",
+    "icon": "https://bg3.wiki/w/images/thumb/6/60/Ensnaring_Strike_Ranged_Icon.webp/40px-Ensnaring_Strike_Ranged_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "-",
+    "type": "Attack roll\n STR save",
+    "damage": [
+      {
+        "dice": "1d6",
+        "damageType": "Piercing",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "entangle",
+    "url": "https://bg3.wiki/wiki/Entangle",
+    "name": "Entangle",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d9/Entangle_Icon.webp/40px-Entangle_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 3m / 10ft (Radius)",
+    "type": "STR save",
+    "damage": []
+  },
+  {
+    "id": "expeditious-retreat",
+    "url": "https://bg3.wiki/wiki/Expeditious_Retreat",
+    "name": "Expeditious Retreat",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d6/Expeditious_Retreat_Icon.webp/40px-Expeditious_Retreat_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "Long Rest",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "faerie-fire",
+    "url": "https://bg3.wiki/wiki/Faerie_Fire",
+    "name": "Faerie Fire",
+    "icon": "https://bg3.wiki/w/images/thumb/a/a1/Faerie_Fire_Icon.webp/40px-Faerie_Fire_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m /  60ft 6m / 20ft (Radius)",
+    "type": "DEX save",
+    "damage": []
+  },
+  {
+    "id": "false-life",
+    "url": "https://bg3.wiki/wiki/False_Life",
+    "name": "False Life",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f2/False_Life_Icon.webp/40px-False_Life_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "feather-fall",
+    "url": "https://bg3.wiki/wiki/Feather_Fall",
+    "name": "Feather Fall",
+    "icon": "https://bg3.wiki/w/images/thumb/0/00/Feather_Fall_Icon.webp/40px-Feather_Fall_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "10 turns",
+    "range": "Self 9m / 30ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "find-familiar",
+    "url": "https://bg3.wiki/wiki/Find_Familiar",
+    "name": "Find Familiar",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8b/Find_Familiar_Cat_Icon.webp/40px-Find_Familiar_Cat_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "fog-cloud",
+    "url": "https://bg3.wiki/wiki/Fog_Cloud",
+    "name": "Fog Cloud",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c0/Fog_Cloud_Icon.webp/40px-Fog_Cloud_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft 5m / 17ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "goodberry",
+    "url": "https://bg3.wiki/wiki/Goodberry",
+    "name": "Goodberry",
+    "icon": "https://bg3.wiki/w/images/thumb/4/42/Goodberry_Icon.webp/40px-Goodberry_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "grease",
+    "url": "https://bg3.wiki/wiki/Grease",
+    "name": "Grease",
+    "icon": "https://bg3.wiki/w/images/thumb/7/7a/Grease_Icon.webp/40px-Grease_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "DEX save",
+    "damage": []
+  },
+  {
+    "id": "guiding-bolt",
+    "url": "https://bg3.wiki/wiki/Guiding_Bolt",
+    "name": "Guiding Bolt",
+    "icon": "https://bg3.wiki/w/images/thumb/2/2c/Guiding_Bolt_Icon.webp/40px-Guiding_Bolt_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "18 m /  60ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "4d6",
+        "damageType": "Radiant"
+      }
+    ]
+  },
+  {
+    "id": "hail-of-thorns",
+    "url": "https://bg3.wiki/wiki/Hail_of_Thorns",
+    "name": "Hail of Thorns",
+    "icon": "https://bg3.wiki/w/images/thumb/6/63/Hail_of_Thorns_Icon.webp/40px-Hail_of_Thorns_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 2m / 7ft (Radius)",
+    "type": "Attack roll\n DEX save",
+    "damage": [
+      {
+        "dice": "1d10",
+        "damageType": "Piercing",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "healing-word",
+    "url": "https://bg3.wiki/wiki/Healing_Word",
+    "name": "Healing Word",
+    "icon": "https://bg3.wiki/w/images/thumb/e/ef/Healing_Word_Icon.webp/40px-Healing_Word_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-"
+  },
+  {
+    "id": "hellish-rebuke",
+    "url": "https://bg3.wiki/wiki/Hellish_Rebuke",
+    "name": "Hellish Rebuke",
+    "icon": "https://bg3.wiki/w/images/thumb/8/82/Hellish_Rebuke_Icon.webp/40px-Hellish_Rebuke_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Reaction",
+    "duration": "-",
+    "range": "-",
+    "type": "-",
+    "damage": [
+      {
+        "dice": "2d10",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "heroism",
+    "url": "https://bg3.wiki/wiki/Heroism",
+    "name": "Heroism",
+    "icon": "https://bg3.wiki/w/images/thumb/1/19/Heroism_Icon.webp/40px-Heroism_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "hex",
+    "url": "https://bg3.wiki/wiki/Hex",
+    "name": "Hex",
+    "icon": "https://bg3.wiki/w/images/thumb/9/9f/Hex_Icon.webp/40px-Hex_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": [
+      {
+        "dice": "1d6",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "hunter-s-mark",
+    "url": "https://bg3.wiki/wiki/Hunter%27s_Mark",
+    "name": "Hunter's Mark",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f6/Hunter%27s_Mark_Icon.webp/40px-Hunter%27s_Mark_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "Long Rest",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": [
+      {
+        "dice": "1d6",
+        "damageType": "Weapon"
+      }
+    ]
+  },
+  {
+    "id": "ice-knife",
+    "url": "https://bg3.wiki/wiki/Ice_Knife",
+    "name": "Ice Knife",
+    "icon": "https://bg3.wiki/w/images/thumb/1/17/Ice_Knife_Icon.webp/40px-Ice_Knife_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft 2m / 7ft (Radius)",
+    "type": "Attack roll\n DEX save",
+    "damage": [
+      {
+        "dice": "1d10",
+        "damageType": "Piercing"
+      },
+      {
+        "dice": "2d6",
+        "damageType": "Cold"
+      }
+    ]
+  },
+  {
+    "id": "inflict-wounds",
+    "url": "https://bg3.wiki/wiki/Inflict_Wounds",
+    "name": "Inflict Wounds",
+    "icon": "https://bg3.wiki/w/images/thumb/3/3d/Inflict_Wounds_Icon.webp/40px-Inflict_Wounds_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "3d10",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "longstrider",
+    "url": "https://bg3.wiki/wiki/Longstrider",
+    "name": "Longstrider",
+    "icon": "https://bg3.wiki/w/images/thumb/3/35/Longstrider_Icon.webp/40px-Longstrider_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "mage-armour",
+    "url": "https://bg3.wiki/wiki/Mage_Armour",
+    "name": "Mage Armour",
+    "icon": "https://bg3.wiki/w/images/thumb/0/0d/Mage_Armour_Icon.webp/40px-Mage_Armour_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "magic-missile",
+    "url": "https://bg3.wiki/wiki/Magic_Missile",
+    "name": "Magic Missile",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d4/Magic_Missile_Icon.webp/40px-Magic_Missile_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-"
+  },
+  {
+    "id": "protection-from-evil-and-good",
+    "url": "https://bg3.wiki/wiki/Protection_from_Evil_and_Good",
+    "name": "Protection from Evil and Good",
+    "icon": "https://bg3.wiki/w/images/thumb/3/35/Protection_from_Evil_and_Good_Icon.webp/40px-Protection_from_Evil_and_Good_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "ray-of-sickness",
+    "url": "https://bg3.wiki/wiki/Ray_of_Sickness",
+    "name": "Ray of Sickness",
+    "icon": "https://bg3.wiki/w/images/thumb/7/74/Ray_of_Sickness_Icon.webp/40px-Ray_of_Sickness_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "18 m / 60 ft",
+    "type": "Attack roll\n CON save",
+    "damage": [
+      {
+        "dice": "2d8",
+        "damageType": "Poison"
+      }
+    ]
+  },
+  {
+    "id": "sanctuary",
+    "url": "https://bg3.wiki/wiki/Sanctuary",
+    "name": "Sanctuary",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c1/Sanctuary_Icon.webp/40px-Sanctuary_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "searing-smite",
+    "url": "https://bg3.wiki/wiki/Searing_Smite",
+    "name": "Searing Smite",
+    "icon": "https://bg3.wiki/w/images/thumb/5/50/Searing_Smite_Icon.webp/40px-Searing_Smite_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Weapon Range",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d6",
+        "damageType": "Fire"
+      },
+      {
+        "dice": "1d6",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "shield-spell",
+    "url": "https://bg3.wiki/wiki/Shield_(spell)",
+    "name": "Shield (spell)",
+    "icon": "https://bg3.wiki/w/images/thumb/c/cf/Shield_spell_Icon.webp/40px-Shield_spell_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Reaction",
+    "duration": "1 turn",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "shield-of-faith",
+    "url": "https://bg3.wiki/wiki/Shield_of_Faith",
+    "name": "Shield of Faith",
+    "icon": "https://bg3.wiki/w/images/thumb/8/83/Shield_of_Faith_Icon.webp/40px-Shield_of_Faith_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "Long Rest",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "sleep",
+    "url": "https://bg3.wiki/wiki/Sleep",
+    "name": "Sleep",
+    "icon": "https://bg3.wiki/w/images/thumb/a/ae/Sleep_Icon.webp/40px-Sleep_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "speak-with-animals",
+    "url": "https://bg3.wiki/wiki/Speak_with_Animals",
+    "name": "Speak with Animals",
+    "icon": "https://bg3.wiki/w/images/thumb/2/24/Speak_with_Animals_Icon.webp/40px-Speak_with_Animals_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "tasha-s-hideous-laughter",
+    "url": "https://bg3.wiki/wiki/Tasha%27s_Hideous_Laughter",
+    "name": "Tasha's Hideous Laughter",
+    "icon": "https://bg3.wiki/w/images/thumb/2/27/Tasha%27s_Hideous_Laughter_Icon.webp/40px-Tasha%27s_Hideous_Laughter_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m /  60ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "thunderous-smite",
+    "url": "https://bg3.wiki/wiki/Thunderous_Smite",
+    "name": "Thunderous Smite",
+    "icon": "https://bg3.wiki/w/images/thumb/d/dd/Thunderous_Smite_Icon.webp/40px-Thunderous_Smite_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "Weapon Range",
+    "type": "Attack roll\n STR save",
+    "damage": [
+      {
+        "dice": "2d6",
+        "damageType": "Thunder",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "thunderwave",
+    "url": "https://bg3.wiki/wiki/Thunderwave",
+    "name": "Thunderwave",
+    "icon": "https://bg3.wiki/w/images/thumb/0/04/Thunderwave_Icon.webp/40px-Thunderwave_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft 5m / 17ft (Cube)",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "2d8",
+        "damageType": "Thunder"
+      }
+    ]
+  },
+  {
+    "id": "witch-bolt",
+    "url": "https://bg3.wiki/wiki/Witch_Bolt",
+    "name": "Witch Bolt",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d2/Witch_Bolt_Icon.webp/40px-Witch_Bolt_Icon.webp.png",
+    "level": 1,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "1d12",
+        "damageType": "Lightning"
+      }
+    ]
+  },
+  {
+    "id": "wrathful-smite",
+    "url": "https://bg3.wiki/wiki/Wrathful_Smite",
+    "name": "Wrathful Smite",
+    "icon": "https://bg3.wiki/w/images/thumb/7/79/Wrathful_Smite_Icon.webp/40px-Wrathful_Smite_Icon.webp.png",
+    "level": 1,
+    "upcast": false,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "Weapon Range",
+    "type": "Attack roll\n WIS save",
+    "damage": [
+      {
+        "dice": "1d6",
+        "damageType": "Psychic",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "aid",
+    "url": "https://bg3.wiki/wiki/Aid",
+    "name": "Aid",
+    "icon": "https://bg3.wiki/w/images/thumb/5/50/Aid_Icon.webp/40px-Aid_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self 9m / 30ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "arcane-lock",
+    "url": "https://bg3.wiki/wiki/Arcane_Lock",
+    "name": "Arcane Lock",
+    "icon": "https://bg3.wiki/w/images/thumb/7/79/Arcane_Lock_Icon.webp/40px-Arcane_Lock_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "barkskin",
+    "url": "https://bg3.wiki/wiki/Barkskin",
+    "name": "Barkskin",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8b/Barkskin_Icon.webp/40px-Barkskin_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "blindness",
+    "url": "https://bg3.wiki/wiki/Blindness",
+    "name": "Blindness",
+    "icon": "https://bg3.wiki/w/images/thumb/5/5a/Blindness_Icon.webp/40px-Blindness_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "CON save",
+    "damage": []
+  },
+  {
+    "id": "blur",
+    "url": "https://bg3.wiki/wiki/Blur",
+    "name": "Blur",
+    "icon": "https://bg3.wiki/w/images/thumb/0/0d/Blur_Icon.webp/40px-Blur_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "branding-smite",
+    "url": "https://bg3.wiki/wiki/Branding_Smite",
+    "name": "Branding Smite",
+    "icon": "https://bg3.wiki/w/images/thumb/5/5e/Branding_Smite_Melee_Icon.webp/40px-Branding_Smite_Melee_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Weapon Range",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "2d6",
+        "damageType": "Radiant",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "calm-emotions",
+    "url": "https://bg3.wiki/wiki/Calm_Emotions",
+    "name": "Calm Emotions",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d9/Calm_Emotions_Icon.webp/40px-Calm_Emotions_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft 6m / 20ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "cloud-of-daggers",
+    "url": "https://bg3.wiki/wiki/Cloud_of_Daggers",
+    "name": "Cloud of Daggers",
+    "icon": "https://bg3.wiki/w/images/thumb/3/3d/Cloud_of_Daggers_Icon.webp/40px-Cloud_of_Daggers_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": [
+      {
+        "dice": "4d4",
+        "damageType": "Slashing"
+      }
+    ]
+  },
+  {
+    "id": "crown-of-madness",
+    "url": "https://bg3.wiki/wiki/Crown_of_Madness",
+    "name": "Crown of Madness",
+    "icon": "https://bg3.wiki/w/images/thumb/4/48/Crown_of_Madness_Icon.webp/40px-Crown_of_Madness_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "3 turns",
+    "range": "18 m /  60ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "darkness",
+    "url": "https://bg3.wiki/wiki/Darkness",
+    "name": "Darkness",
+    "icon": "https://bg3.wiki/w/images/thumb/b/bf/Darkness_Icon.webp/40px-Darkness_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "darkvision-spell",
+    "url": "https://bg3.wiki/wiki/Darkvision_(spell)",
+    "name": "Darkvision (spell)",
+    "icon": "https://bg3.wiki/w/images/thumb/0/01/Darkvision_spell_Icon.webp/40px-Darkvision_spell_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "detect-thoughts",
+    "url": "https://bg3.wiki/wiki/Detect_Thoughts",
+    "name": "Detect Thoughts",
+    "icon": "https://bg3.wiki/w/images/thumb/b/b6/Detect_Thoughts_Icon.webp/40px-Detect_Thoughts_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "enhance-ability",
+    "url": "https://bg3.wiki/wiki/Enhance_Ability",
+    "name": "Enhance Ability",
+    "icon": "https://bg3.wiki/w/images/thumb/6/65/Enhance_Ability_Icon.webp/40px-Enhance_Ability_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "enlarge-reduce",
+    "url": "https://bg3.wiki/wiki/Enlarge/Reduce",
+    "name": "Enlarge/Reduce",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c6/Enlarge_Reduce_Icon.webp/40px-Enlarge_Reduce_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "enthrall",
+    "url": "https://bg3.wiki/wiki/Enthrall",
+    "name": "Enthrall",
+    "icon": "https://bg3.wiki/w/images/thumb/9/90/Enthrall_Icon.webp/40px-Enthrall_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "6 m /  20ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "flame-blade",
+    "url": "https://bg3.wiki/wiki/Flame_Blade",
+    "name": "Flame Blade",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c8/Flame_Blade_Icon.webp/40px-Flame_Blade_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "flaming-sphere",
+    "url": "https://bg3.wiki/wiki/Flaming_Sphere",
+    "name": "Flaming Sphere",
+    "icon": "https://bg3.wiki/w/images/thumb/6/66/Flaming_Sphere_Icon.webp/40px-Flaming_Sphere_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 2m / 7ft (Radius)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "2d6",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "gust-of-wind",
+    "url": "https://bg3.wiki/wiki/Gust_of_Wind",
+    "name": "Gust of Wind",
+    "icon": "https://bg3.wiki/w/images/thumb/5/58/Gust_of_Wind_Icon.webp/40px-Gust_of_Wind_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "Self 12m / 40ft",
+    "type": "STR save",
+    "damage": []
+  },
+  {
+    "id": "heat-metal",
+    "url": "https://bg3.wiki/wiki/Heat_Metal",
+    "name": "Heat Metal",
+    "icon": "https://bg3.wiki/w/images/thumb/a/a3/Heat_Metal_Icon.webp/40px-Heat_Metal_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "2d8",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "hold-person",
+    "url": "https://bg3.wiki/wiki/Hold_Person",
+    "name": "Hold Person",
+    "icon": "https://bg3.wiki/w/images/thumb/7/75/Hold_Person_Icon.webp/40px-Hold_Person_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "invisibility-spell",
+    "url": "https://bg3.wiki/wiki/Invisibility_(spell)",
+    "name": "Invisibility (spell)",
+    "icon": "https://bg3.wiki/w/images/thumb/4/4e/Invisibility_spell_Icon.webp/40px-Invisibility_spell_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "knock",
+    "url": "https://bg3.wiki/wiki/Knock",
+    "name": "Knock",
+    "icon": "https://bg3.wiki/w/images/thumb/a/a4/Knock_Icon.webp/40px-Knock_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "lesser-restoration",
+    "url": "https://bg3.wiki/wiki/Lesser_Restoration",
+    "name": "Lesser Restoration",
+    "icon": "https://bg3.wiki/w/images/thumb/e/e4/Lesser_Restoration_Icon.webp/40px-Lesser_Restoration_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "magic-weapon",
+    "url": "https://bg3.wiki/wiki/Magic_Weapon",
+    "name": "Magic Weapon",
+    "icon": "https://bg3.wiki/w/images/thumb/9/9c/Magic_Weapon_Icon.webp/40px-Magic_Weapon_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "melf-s-acid-arrow",
+    "url": "https://bg3.wiki/wiki/Melf%27s_Acid_Arrow",
+    "name": "Melf's Acid Arrow",
+    "icon": "https://bg3.wiki/w/images/thumb/6/67/Melf%27s_Acid_Arrow_Icon.webp/40px-Melf%27s_Acid_Arrow_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "18 m / 60 ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "4d4",
+        "damageType": "Acid"
+      },
+      {
+        "dice": "2d4",
+        "damageType": "Acid"
+      }
+    ]
+  },
+  {
+    "id": "mirror-image",
+    "url": "https://bg3.wiki/wiki/Mirror_Image",
+    "name": "Mirror Image",
+    "icon": "https://bg3.wiki/w/images/thumb/4/41/Mirror_Image_Icon.webp/40px-Mirror_Image_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "misty-step",
+    "url": "https://bg3.wiki/wiki/Misty_Step",
+    "name": "Misty Step",
+    "icon": "https://bg3.wiki/w/images/thumb/1/1f/Misty_Step_Icon.webp/40px-Misty_Step_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "moonbeam",
+    "url": "https://bg3.wiki/wiki/Moonbeam",
+    "name": "Moonbeam",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8b/Moonbeam_Icon.webp/40px-Moonbeam_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 1m / 3ft (Radius)",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "2d10",
+        "damageType": "Radiant"
+      }
+    ]
+  },
+  {
+    "id": "pass-without-trace",
+    "url": "https://bg3.wiki/wiki/Pass_Without_Trace",
+    "name": "Pass Without Trace",
+    "icon": "https://bg3.wiki/w/images/thumb/2/2b/Pass_Without_Trace_Icon.webp/40px-Pass_Without_Trace_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self 9m / 30ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "phantasmal-force",
+    "url": "https://bg3.wiki/wiki/Phantasmal_Force",
+    "name": "Phantasmal Force",
+    "icon": "https://bg3.wiki/w/images/thumb/a/ac/Phantasmal_Force_Icon.webp/40px-Phantasmal_Force_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "INT save",
+    "damage": []
+  },
+  {
+    "id": "prayer-of-healing",
+    "url": "https://bg3.wiki/wiki/Prayer_of_Healing",
+    "name": "Prayer of Healing",
+    "icon": "https://bg3.wiki/w/images/thumb/e/e0/Prayer_of_Healing_Icon.webp/40px-Prayer_of_Healing_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "Self 9m / 30ft (Radius)",
+    "type": "-"
+  },
+  {
+    "id": "protection-from-poison",
+    "url": "https://bg3.wiki/wiki/Protection_from_Poison",
+    "name": "Protection from Poison",
+    "icon": "https://bg3.wiki/w/images/thumb/3/3b/Protection_from_Poison_Icon.webp/40px-Protection_from_Poison_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "ray-of-enfeeblement",
+    "url": "https://bg3.wiki/wiki/Ray_of_Enfeeblement",
+    "name": "Ray of Enfeeblement",
+    "icon": "https://bg3.wiki/w/images/thumb/7/7b/Ray_of_Enfeeblement_Icon.webp/40px-Ray_of_Enfeeblement_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "Attack roll",
+    "damage": []
+  },
+  {
+    "id": "scorching-ray",
+    "url": "https://bg3.wiki/wiki/Scorching_Ray",
+    "name": "Scorching Ray",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8e/Scorching_Ray_Icon.webp/40px-Scorching_Ray_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "2d6",
+        "damageType": "Fire"
+      },
+      {
+        "dice": "2d6",
+        "damageType": "Fire"
+      },
+      {
+        "dice": "2d6",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "see-invisibility-spell",
+    "url": "https://bg3.wiki/wiki/See_Invisibility_(spell)",
+    "name": "See Invisibility (spell)",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c3/See_Invisibility_Icon.webp/40px-See_Invisibility_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self 9m / 30ft (Radius)",
+    "type": "DEX save",
+    "damage": []
+  },
+  {
+    "id": "shadow-blade",
+    "url": "https://bg3.wiki/wiki/Shadow_Blade",
+    "name": "Shadow Blade",
+    "icon": "https://bg3.wiki/w/images/thumb/6/6e/Shadow_Blade_Icon.webp/40px-Shadow_Blade_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "Self",
+    "type": "-"
+  },
+  {
+    "id": "shatter",
+    "url": "https://bg3.wiki/wiki/Shatter",
+    "name": "Shatter",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c5/Shatter_Icon.webp/40px-Shatter_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 3m / 10ft (Radius)",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "3d8",
+        "damageType": "Thunder"
+      }
+    ]
+  },
+  {
+    "id": "silence",
+    "url": "https://bg3.wiki/wiki/Silence",
+    "name": "Silence",
+    "icon": "https://bg3.wiki/w/images/thumb/7/78/Silence_Icon.webp/40px-Silence_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "spike-growth",
+    "url": "https://bg3.wiki/wiki/Spike_Growth",
+    "name": "Spike Growth",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d4/Spike_Growth_Icon.webp/40px-Spike_Growth_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": [
+      {
+        "dice": "2d4",
+        "damageType": "Piercing"
+      }
+    ]
+  },
+  {
+    "id": "spiritual-weapon",
+    "url": "https://bg3.wiki/wiki/Spiritual_Weapon",
+    "name": "Spiritual Weapon",
+    "icon": "https://bg3.wiki/w/images/thumb/7/73/Spiritual_Weapon_Halberd_Icon.webp/40px-Spiritual_Weapon_Halberd_Icon.webp.png",
+    "level": 2,
+    "upcast": true,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-"
+  },
+  {
+    "id": "warding-bond",
+    "url": "https://bg3.wiki/wiki/Warding_Bond",
+    "name": "Warding Bond",
+    "icon": "https://bg3.wiki/w/images/thumb/e/ea/Warding_Bond_Icon.webp/40px-Warding_Bond_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "web",
+    "url": "https://bg3.wiki/wiki/Web",
+    "name": "Web",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8b/Web_Icon.webp/40px-Web_Icon.webp.png",
+    "level": 2,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 4m / 13ft (Radius)",
+    "type": "DEX save",
+    "damage": []
+  },
+  {
+    "id": "animate-dead",
+    "url": "https://bg3.wiki/wiki/Animate_Dead",
+    "name": "Animate Dead",
+    "icon": "https://bg3.wiki/w/images/thumb/2/2f/Animate_Dead_Icon.webp/40px-Animate_Dead_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "3 m /  10ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "beacon-of-hope",
+    "url": "https://bg3.wiki/wiki/Beacon_of_Hope",
+    "name": "Beacon of Hope",
+    "icon": "https://bg3.wiki/w/images/thumb/5/5d/Beacon_of_Hope_Icon.webp/40px-Beacon_of_Hope_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Self 9m / 30ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "bestow-curse",
+    "url": "https://bg3.wiki/wiki/Bestow_Curse",
+    "name": "Bestow Curse",
+    "icon": "https://bg3.wiki/w/images/thumb/0/00/Bestow_Curse_Icon.webp/40px-Bestow_Curse_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "blinding-smite",
+    "url": "https://bg3.wiki/wiki/Blinding_Smite",
+    "name": "Blinding Smite",
+    "icon": "https://bg3.wiki/w/images/thumb/5/5e/Blinding_Smite_Icon.webp/40px-Blinding_Smite_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Weapon Range",
+    "type": "Attack roll\n CON save",
+    "damage": [
+      {
+        "dice": "3d8",
+        "damageType": "Radiant",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "blink",
+    "url": "https://bg3.wiki/wiki/Blink",
+    "name": "Blink",
+    "icon": "https://bg3.wiki/w/images/thumb/b/b3/Blink_Icon.webp/40px-Blink_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "call-lightning",
+    "url": "https://bg3.wiki/wiki/Call_Lightning",
+    "name": "Call Lightning",
+    "icon": "https://bg3.wiki/w/images/thumb/9/99/Call_Lightning_Icon.webp/40px-Call_Lightning_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m /  60ft 2m / 7ft (Radius)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "3d10",
+        "damageType": "Lightning"
+      }
+    ]
+  },
+  {
+    "id": "conjure-barrage",
+    "url": "https://bg3.wiki/wiki/Conjure_Barrage",
+    "name": "Conjure Barrage",
+    "icon": "https://bg3.wiki/w/images/thumb/d/df/Conjure_Barrage_Icon.webp/40px-Conjure_Barrage_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "Self 9m / 30ft (Cone)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "2d8",
+        "damageType": "Weapon",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "counterspell",
+    "url": "https://bg3.wiki/wiki/Counterspell",
+    "name": "Counterspell",
+    "icon": "https://bg3.wiki/w/images/thumb/5/50/Counterspell_Icon.webp/40px-Counterspell_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Reaction",
+    "duration": "-",
+    "range": "-",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "crusader-s-mantle",
+    "url": "https://bg3.wiki/wiki/Crusader%27s_Mantle",
+    "name": "Crusader's Mantle",
+    "icon": "https://bg3.wiki/w/images/thumb/4/4d/Crusader%27s_Mantle_Icon.webp/40px-Crusader%27s_Mantle_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Self 9m / 30ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "daylight",
+    "url": "https://bg3.wiki/wiki/Daylight",
+    "name": "Daylight",
+    "icon": "https://bg3.wiki/w/images/thumb/6/6e/Daylight_Icon.webp/40px-Daylight_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "elemental-weapon",
+    "url": "https://bg3.wiki/wiki/Elemental_Weapon",
+    "name": "Elemental Weapon",
+    "icon": "https://bg3.wiki/w/images/thumb/0/06/Elemental_Weapon_Icon.webp/40px-Elemental_Weapon_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "fear",
+    "url": "https://bg3.wiki/wiki/Fear",
+    "name": "Fear",
+    "icon": "https://bg3.wiki/w/images/thumb/a/ad/Fear_Icon.webp/40px-Fear_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "Self 9m / 30ft (Cone)",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "feign-death",
+    "url": "https://bg3.wiki/wiki/Feign_Death",
+    "name": "Feign Death",
+    "icon": "https://bg3.wiki/w/images/thumb/f/fe/Feign_Death_Icon.webp/40px-Feign_Death_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m /  5ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "fireball",
+    "url": "https://bg3.wiki/wiki/Fireball",
+    "name": "Fireball",
+    "icon": "https://bg3.wiki/w/images/thumb/c/cb/Fireball_Icon.webp/40px-Fireball_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft 4m / 13ft (Radius)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "8d6",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "gaseous-form",
+    "url": "https://bg3.wiki/wiki/Gaseous_Form",
+    "name": "Gaseous Form",
+    "icon": "https://bg3.wiki/w/images/thumb/6/62/Gaseous_Form_Icon.webp/40px-Gaseous_Form_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "glyph-of-warding",
+    "url": "https://bg3.wiki/wiki/Glyph_of_Warding",
+    "name": "Glyph of Warding",
+    "icon": "https://bg3.wiki/w/images/thumb/8/88/Glyph_of_Warding_Icon.webp/40px-Glyph_of_Warding_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "9 m /  30ft 4m / 13ft (Radius)",
+    "type": "DEX save",
+    "damage": []
+  },
+  {
+    "id": "grant-flight",
+    "url": "https://bg3.wiki/wiki/Grant_Flight",
+    "name": "Grant Flight",
+    "icon": "https://bg3.wiki/w/images/thumb/4/45/Grant_Flight_Icon.webp/40px-Grant_Flight_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "haste",
+    "url": "https://bg3.wiki/wiki/Haste",
+    "name": "Haste",
+    "icon": "https://bg3.wiki/w/images/thumb/1/11/Haste_Icon.webp/40px-Haste_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "hunger-of-hadar",
+    "url": "https://bg3.wiki/wiki/Hunger_of_Hadar",
+    "name": "Hunger of Hadar",
+    "icon": "https://bg3.wiki/w/images/thumb/4/44/Hunger_of_Hadar_Icon.webp/40px-Hunger_of_Hadar_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 6m / 20ft (Radius)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "2d6",
+        "damageType": "Cold"
+      },
+      {
+        "dice": "2d6",
+        "damageType": "Acid"
+      }
+    ]
+  },
+  {
+    "id": "hypnotic-pattern",
+    "url": "https://bg3.wiki/wiki/Hypnotic_Pattern",
+    "name": "Hypnotic Pattern",
+    "icon": "https://bg3.wiki/w/images/thumb/2/28/Hypnotic_Pattern_Icon.webp/40px-Hypnotic_Pattern_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "18 m / 60 ft 9m / 30ft (Radius)",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "lightning-arrow",
+    "url": "https://bg3.wiki/wiki/Lightning_Arrow",
+    "name": "Lightning Arrow",
+    "icon": "https://bg3.wiki/w/images/thumb/e/e3/Lightning_Arrow_Icon.webp/40px-Lightning_Arrow_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 3m / 10ft (Radius)",
+    "type": "Attack roll\n DEX save",
+    "damage": [
+      {
+        "dice": "4d8",
+        "damageType": "Lightning"
+      },
+      {
+        "dice": "2d8",
+        "damageType": "Lightning"
+      }
+    ]
+  },
+  {
+    "id": "lightning-bolt",
+    "url": "https://bg3.wiki/wiki/Lightning_Bolt",
+    "name": "Lightning Bolt",
+    "icon": "https://bg3.wiki/w/images/thumb/c/cb/Lightning_Bolt_Icon.webp/40px-Lightning_Bolt_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "Self 30m / 100ft",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "8d6",
+        "damageType": "Lightning"
+      }
+    ]
+  },
+  {
+    "id": "mass-healing-word",
+    "url": "https://bg3.wiki/wiki/Mass_Healing_Word",
+    "name": "Mass Healing Word",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f8/Mass_Healing_Word_Icon.webp/40px-Mass_Healing_Word_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "Self 18m / 60ft (Radius)",
+    "type": "-"
+  },
+  {
+    "id": "plant-growth",
+    "url": "https://bg3.wiki/wiki/Plant_Growth",
+    "name": "Plant Growth",
+    "icon": "https://bg3.wiki/w/images/thumb/a/ad/Plant_Growth_Icon.webp/40px-Plant_Growth_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "protection-from-energy",
+    "url": "https://bg3.wiki/wiki/Protection_from_Energy",
+    "name": "Protection from Energy",
+    "icon": "https://bg3.wiki/w/images/thumb/1/15/Protection_from_Energy_Icon.webp/40px-Protection_from_Energy_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "remove-curse",
+    "url": "https://bg3.wiki/wiki/Remove_Curse",
+    "name": "Remove Curse",
+    "icon": "https://bg3.wiki/w/images/thumb/7/7f/Remove_Curse_Icon.webp/40px-Remove_Curse_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "revivify",
+    "url": "https://bg3.wiki/wiki/Revivify",
+    "name": "Revivify",
+    "icon": "https://bg3.wiki/w/images/thumb/5/59/Revivify_Icon.webp/40px-Revivify_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "9 m /  30ft 9m / 30ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "sleet-storm",
+    "url": "https://bg3.wiki/wiki/Sleet_Storm",
+    "name": "Sleet Storm",
+    "icon": "https://bg3.wiki/w/images/thumb/5/50/Sleet_Storm_Icon.webp/40px-Sleet_Storm_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "CON save",
+    "damage": []
+  },
+  {
+    "id": "slow",
+    "url": "https://bg3.wiki/wiki/Slow",
+    "name": "Slow",
+    "icon": "https://bg3.wiki/w/images/thumb/b/be/Slow_Icon.webp/40px-Slow_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "speak-with-dead",
+    "url": "https://bg3.wiki/wiki/Speak_with_Dead",
+    "name": "Speak with Dead",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8c/Speak_with_Dead_Icon.webp/40px-Speak_with_Dead_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "spirit-guardians",
+    "url": "https://bg3.wiki/wiki/Spirit_Guardians",
+    "name": "Spirit Guardians",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d6/Spirit_Guardians_Icon.webp/40px-Spirit_Guardians_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "Self 3m / 10ft (Radius)",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "stinking-cloud",
+    "url": "https://bg3.wiki/wiki/Stinking_Cloud",
+    "name": "Stinking Cloud",
+    "icon": "https://bg3.wiki/w/images/thumb/b/b7/Stinking_Cloud_Icon.webp/40px-Stinking_Cloud_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "CON save",
+    "damage": []
+  },
+  {
+    "id": "vampiric-touch",
+    "url": "https://bg3.wiki/wiki/Vampiric_Touch",
+    "name": "Vampiric Touch",
+    "icon": "https://bg3.wiki/w/images/thumb/8/85/Vampiric_Touch_Icon.webp/40px-Vampiric_Touch_Icon.webp.png",
+    "level": 3,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m / 5 ft",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "3d6",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "warden-of-vitality",
+    "url": "https://bg3.wiki/wiki/Warden_of_Vitality",
+    "name": "Warden of Vitality",
+    "icon": "https://bg3.wiki/w/images/thumb/0/0b/Warden_of_Vitality_Icon.webp/40px-Warden_of_Vitality_Icon.webp.png",
+    "level": 3,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "banishment",
+    "url": "https://bg3.wiki/wiki/Banishment",
+    "name": "Banishment",
+    "icon": "https://bg3.wiki/w/images/thumb/6/6d/Banishment_Icon.webp/40px-Banishment_Icon.webp.png",
+    "level": 4,
+    "upcast": true,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "18 m / 60 ft",
+    "type": "CHA save",
+    "damage": []
+  },
+  {
+    "id": "blight",
+    "url": "https://bg3.wiki/wiki/Blight",
+    "name": "Blight",
+    "icon": "https://bg3.wiki/w/images/thumb/e/e0/Blight_Icon.webp/40px-Blight_Icon.webp.png",
+    "level": 4,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "9 m /  30ft",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "8d8",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "confusion",
+    "url": "https://bg3.wiki/wiki/Confusion",
+    "name": "Confusion",
+    "icon": "https://bg3.wiki/w/images/thumb/7/7b/Confusion_Icon.webp/40px-Confusion_Icon.webp.png",
+    "level": 4,
+    "upcast": true,
+    "action": "Action",
+    "duration": "3 turns",
+    "range": "18 m / 60 ft 6m / 20ft (Radius)",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "conjure-minor-elemental",
+    "url": "https://bg3.wiki/wiki/Conjure_Minor_Elemental",
+    "name": "Conjure Minor Elemental",
+    "icon": "https://bg3.wiki/w/images/thumb/0/08/Conjure_Minor_Elemental_Azer_Icon.webp/40px-Conjure_Minor_Elemental_Azer_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "conjure-woodland-being",
+    "url": "https://bg3.wiki/wiki/Conjure_Woodland_Being",
+    "name": "Conjure Woodland Being",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8a/Conjure_Woodland_Being_Icon.webp/40px-Conjure_Woodland_Being_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "death-ward",
+    "url": "https://bg3.wiki/wiki/Death_Ward",
+    "name": "Death Ward",
+    "icon": "https://bg3.wiki/w/images/thumb/8/84/Death_Ward_Icon.webp/40px-Death_Ward_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "dimension-door",
+    "url": "https://bg3.wiki/wiki/Dimension_Door",
+    "name": "Dimension Door",
+    "icon": "https://bg3.wiki/w/images/thumb/d/da/Dimension_Door_Icon.webp/40px-Dimension_Door_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "50 m /  167ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "dominate-beast",
+    "url": "https://bg3.wiki/wiki/Dominate_Beast",
+    "name": "Dominate Beast",
+    "icon": "https://bg3.wiki/w/images/thumb/8/83/Dominate_Beast_Icon.webp/40px-Dominate_Beast_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m /  60ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "evard-s-black-tentacles",
+    "url": "https://bg3.wiki/wiki/Evard%27s_Black_Tentacles",
+    "name": "Evard's Black Tentacles",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d6/Evard%27s_Black_Tentacles_Icon.webp/40px-Evard%27s_Black_Tentacles_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft 6m / 20ft (Radius)",
+    "type": "STR save",
+    "damage": [
+      {
+        "dice": "3d6",
+        "damageType": "Bludgeoning"
+      }
+    ]
+  },
+  {
+    "id": "fire-shield",
+    "url": "https://bg3.wiki/wiki/Fire_Shield",
+    "name": "Fire Shield",
+    "icon": "https://bg3.wiki/w/images/thumb/e/e0/Fire_Shield_Icon.webp/40px-Fire_Shield_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "freedom-of-movement",
+    "url": "https://bg3.wiki/wiki/Freedom_of_Movement",
+    "name": "Freedom of Movement",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f0/Freedom_of_Movement_Icon.webp/40px-Freedom_of_Movement_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "grasping-vine",
+    "url": "https://bg3.wiki/wiki/Grasping_Vine",
+    "name": "Grasping Vine",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8b/Grasping_Vine_Icon.webp/40px-Grasping_Vine_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Bonus Action",
+    "duration": "-",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "greater-invisibility",
+    "url": "https://bg3.wiki/wiki/Greater_Invisibility",
+    "name": "Greater Invisibility",
+    "icon": "https://bg3.wiki/w/images/thumb/2/28/Greater_Invisibility_Icon.webp/40px-Greater_Invisibility_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "1.5 m /  5ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "guardian-of-faith",
+    "url": "https://bg3.wiki/wiki/Guardian_of_Faith",
+    "name": "Guardian of Faith",
+    "icon": "https://bg3.wiki/w/images/thumb/7/7d/Guardian_of_Faith_Icon.webp/40px-Guardian_of_Faith_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "ice-storm",
+    "url": "https://bg3.wiki/wiki/Ice_Storm",
+    "name": "Ice Storm",
+    "icon": "https://bg3.wiki/w/images/thumb/9/9b/Ice_Storm_Icon.webp/40px-Ice_Storm_Icon.webp.png",
+    "level": 4,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft 6m / 20ft (Radius)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "2d8",
+        "damageType": "Bludgeoning"
+      },
+      {
+        "dice": "4d6",
+        "damageType": "Cold"
+      }
+    ]
+  },
+  {
+    "id": "otiluke-s-resilient-sphere",
+    "url": "https://bg3.wiki/wiki/Otiluke%27s_Resilient_Sphere",
+    "name": "Otiluke's Resilient Sphere",
+    "icon": "https://bg3.wiki/w/images/thumb/8/82/Otiluke%27s_Resilient_Sphere_Icon.webp/40px-Otiluke%27s_Resilient_Sphere_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "3 turns",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "phantasmal-killer",
+    "url": "https://bg3.wiki/wiki/Phantasmal_Killer",
+    "name": "Phantasmal Killer",
+    "icon": "https://bg3.wiki/w/images/thumb/d/da/Phantasmal_Killer_Icon.webp/40px-Phantasmal_Killer_Icon.webp.png",
+    "level": 4,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": [
+      {
+        "dice": "4d10",
+        "damageType": "Psychic"
+      }
+    ]
+  },
+  {
+    "id": "polymorph",
+    "url": "https://bg3.wiki/wiki/Polymorph",
+    "name": "Polymorph",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f6/Polymorph_Icon.webp/40px-Polymorph_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "5 turns",
+    "range": "18 m /  60ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "staggering-smite",
+    "url": "https://bg3.wiki/wiki/Staggering_Smite",
+    "name": "Staggering Smite",
+    "icon": "https://bg3.wiki/w/images/thumb/0/03/Staggering_Smite_Icon.webp/40px-Staggering_Smite_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "Weapon Range",
+    "type": "Attack roll\n WIS save",
+    "damage": [
+      {
+        "dice": "4d6",
+        "damageType": "Psychic",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "stoneskin",
+    "url": "https://bg3.wiki/wiki/Stoneskin",
+    "name": "Stoneskin",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c3/Stoneskin_Icon.webp/40px-Stoneskin_Icon.webp.png",
+    "level": 4,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "wall-of-fire",
+    "url": "https://bg3.wiki/wiki/Wall_of_Fire",
+    "name": "Wall of Fire",
+    "icon": "https://bg3.wiki/w/images/thumb/c/ca/Wall_of_Fire_Icon.webp/40px-Wall_of_Fire_Icon.webp.png",
+    "level": 4,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "5d8",
+        "damageType": "Fire"
+      }
+    ]
+  },
+  {
+    "id": "banishing-smite",
+    "url": "https://bg3.wiki/wiki/Banishing_Smite",
+    "name": "Banishing Smite",
+    "icon": "https://bg3.wiki/w/images/thumb/3/3b/Banishing_Smite_Melee_Icon.webp/40px-Banishing_Smite_Melee_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "2 turns",
+    "range": "Weapon Range",
+    "type": "Attack roll",
+    "damage": [
+      {
+        "dice": "5d10",
+        "damageType": "Force",
+        "weapon": true
+      }
+    ]
+  },
+  {
+    "id": "cloudkill",
+    "url": "https://bg3.wiki/wiki/Cloudkill",
+    "name": "Cloudkill",
+    "icon": "https://bg3.wiki/w/images/thumb/7/74/Cloudkill_Icon.webp/40px-Cloudkill_Icon.webp.png",
+    "level": 5,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-",
+    "damage": [
+      {
+        "dice": "5d8",
+        "damageType": "Poison"
+      }
+    ]
+  },
+  {
+    "id": "cone-of-cold",
+    "url": "https://bg3.wiki/wiki/Cone_of_Cold",
+    "name": "Cone of Cold",
+    "icon": "https://bg3.wiki/w/images/thumb/e/ef/Cone_of_Cold_Icon.webp/40px-Cone_of_Cold_Icon.webp.png",
+    "level": 5,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "Self 9m / 30ft (Cone)",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "8d8",
+        "damageType": "Cold"
+      }
+    ]
+  },
+  {
+    "id": "conjure-elemental",
+    "url": "https://bg3.wiki/wiki/Conjure_Elemental",
+    "name": "Conjure Elemental",
+    "icon": "https://bg3.wiki/w/images/thumb/e/e6/Conjure_Elemental_Icon.webp/40px-Conjure_Elemental_Icon.webp.png",
+    "level": 5,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "contagion",
+    "url": "https://bg3.wiki/wiki/Contagion",
+    "name": "Contagion",
+    "icon": "https://bg3.wiki/w/images/thumb/6/60/Contagion_Filth_Fever_Icon.webp/40px-Contagion_Filth_Fever_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "Attack roll",
+    "damage": []
+  },
+  {
+    "id": "destructive-wave",
+    "url": "https://bg3.wiki/wiki/Destructive_Wave",
+    "name": "Destructive Wave",
+    "icon": "https://bg3.wiki/w/images/thumb/f/fd/Destructive_Wave_Icon.webp/40px-Destructive_Wave_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "1 turn",
+    "range": "9 m /  30ft",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "5d6",
+        "damageType": "Thunder"
+      },
+      {
+        "dice": "5d6",
+        "damageType": "Radiant"
+      }
+    ]
+  },
+  {
+    "id": "dispel-evil-and-good",
+    "url": "https://bg3.wiki/wiki/Dispel_Evil_And_Good",
+    "name": "Dispel Evil And Good",
+    "icon": "https://bg3.wiki/w/images/thumb/a/a5/Dispel_Evil_And_Good_Icon.webp/40px-Dispel_Evil_And_Good_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "Self",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "dominate-person",
+    "url": "https://bg3.wiki/wiki/Dominate_Person",
+    "name": "Dominate Person",
+    "icon": "https://bg3.wiki/w/images/thumb/1/1d/Dominate_Person_Icon.webp/40px-Dominate_Person_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m /  60ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "flame-strike",
+    "url": "https://bg3.wiki/wiki/Flame_Strike",
+    "name": "Flame Strike",
+    "icon": "https://bg3.wiki/w/images/thumb/b/b8/Flame_Strike_Icon.webp/40px-Flame_Strike_Icon.webp.png",
+    "level": 5,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft 3m / 10ft (Radius)",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "5d6",
+        "damageType": "Fire"
+      },
+      {
+        "dice": "5d6",
+        "damageType": "Radiant"
+      }
+    ]
+  },
+  {
+    "id": "greater-restoration",
+    "url": "https://bg3.wiki/wiki/Greater_Restoration",
+    "name": "Greater Restoration",
+    "icon": "https://bg3.wiki/w/images/thumb/e/ee/Greater_Restoration_Icon.webp/40px-Greater_Restoration_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "hold-monster",
+    "url": "https://bg3.wiki/wiki/Hold_Monster",
+    "name": "Hold Monster",
+    "icon": "https://bg3.wiki/w/images/thumb/c/cf/Hold_Monster_Icon.webp/40px-Hold_Monster_Icon.webp.png",
+    "level": 5,
+    "upcast": true,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "insect-plague",
+    "url": "https://bg3.wiki/wiki/Insect_Plague",
+    "name": "Insect Plague",
+    "icon": "https://bg3.wiki/w/images/thumb/a/a2/Insect_Plague_Icon.webp/40px-Insect_Plague_Icon.webp.png",
+    "level": 5,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 6m / 20ft (Radius)",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "4d10",
+        "damageType": "Piercing"
+      }
+    ]
+  },
+  {
+    "id": "mass-cure-wounds",
+    "url": "https://bg3.wiki/wiki/Mass_Cure_Wounds",
+    "name": "Mass Cure Wounds",
+    "icon": "https://bg3.wiki/w/images/thumb/3/32/Mass_Cure_Wounds_Icon.webp/40px-Mass_Cure_Wounds_Icon.webp.png",
+    "level": 5,
+    "upcast": true,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-"
+  },
+  {
+    "id": "planar-binding",
+    "url": "https://bg3.wiki/wiki/Planar_Binding",
+    "name": "Planar Binding",
+    "icon": "https://bg3.wiki/w/images/thumb/f/fa/Planar_Binding_Icon.webp/40px-Planar_Binding_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m / 60 ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "seeming",
+    "url": "https://bg3.wiki/wiki/Seeming",
+    "name": "Seeming",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f4/Seeming_Icon.webp/40px-Seeming_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "telekinesis",
+    "url": "https://bg3.wiki/wiki/Telekinesis",
+    "name": "Telekinesis",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c7/Telekinesis_Icon.webp/40px-Telekinesis_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m /  60ft",
+    "type": "STR save",
+    "damage": []
+  },
+  {
+    "id": "wall-of-stone",
+    "url": "https://bg3.wiki/wiki/Wall_of_Stone",
+    "name": "Wall of Stone",
+    "icon": "https://bg3.wiki/w/images/thumb/e/e2/Wall_of_Stone_Icon.webp/40px-Wall_of_Stone_Icon.webp.png",
+    "level": 5,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "arcane-gate",
+    "url": "https://bg3.wiki/wiki/Arcane_Gate",
+    "name": "Arcane Gate",
+    "icon": "https://bg3.wiki/w/images/thumb/6/6e/Arcane_Gate_Icon.webp/40px-Arcane_Gate_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "blade-barrier",
+    "url": "https://bg3.wiki/wiki/Blade_Barrier",
+    "name": "Blade Barrier",
+    "icon": "https://bg3.wiki/w/images/thumb/b/bb/Blade_Barrier_Icon.webp/40px-Blade_Barrier_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "6d10",
+        "damageType": "Slashing"
+      }
+    ]
+  },
+  {
+    "id": "chain-lightning",
+    "url": "https://bg3.wiki/wiki/Chain_Lightning",
+    "name": "Chain Lightning",
+    "icon": "https://bg3.wiki/w/images/thumb/c/c9/Chain_Lightning_Icon.webp/40px-Chain_Lightning_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "10d8",
+        "damageType": "Lightning"
+      }
+    ]
+  },
+  {
+    "id": "circle-of-death",
+    "url": "https://bg3.wiki/wiki/Circle_of_Death",
+    "name": "Circle of Death",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f2/Circle_of_Death_Icon.webp/40px-Circle_of_Death_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft 9m / 30ft (Radius)",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "8d6",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "create-undead",
+    "url": "https://bg3.wiki/wiki/Create_Undead",
+    "name": "Create Undead",
+    "icon": "https://bg3.wiki/w/images/thumb/d/da/Create_Undead_Icon.webp/40px-Create_Undead_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "3 m /  10ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "disintegrate",
+    "url": "https://bg3.wiki/wiki/Disintegrate",
+    "name": "Disintegrate",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8a/Disintegrate_Icon.webp/40px-Disintegrate_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "9 m /  30ft",
+    "type": "DEX save"
+  },
+  {
+    "id": "eyebite",
+    "url": "https://bg3.wiki/wiki/Eyebite",
+    "name": "Eyebite",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f7/Eyebite_Panicked_Icon.webp/40px-Eyebite_Panicked_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m /  60ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "flesh-to-stone",
+    "url": "https://bg3.wiki/wiki/Flesh_to_Stone",
+    "name": "Flesh to Stone",
+    "icon": "https://bg3.wiki/w/images/thumb/7/72/Flesh_to_Stone_Icon.webp/40px-Flesh_to_Stone_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "3 turns",
+    "range": "18 m /  60ft",
+    "type": "CON save",
+    "damage": []
+  },
+  {
+    "id": "globe-of-invulnerability",
+    "url": "https://bg3.wiki/wiki/Globe_of_Invulnerability",
+    "name": "Globe of Invulnerability",
+    "icon": "https://bg3.wiki/w/images/thumb/7/7a/Globe_of_Invulnerability_Icon.webp/40px-Globe_of_Invulnerability_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft 3m / 10ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "harm",
+    "url": "https://bg3.wiki/wiki/Harm",
+    "name": "Harm",
+    "icon": "https://bg3.wiki/w/images/thumb/0/09/Harm_Icon.webp/40px-Harm_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "18 m / 60 ft",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "14d6",
+        "damageType": "Necrotic"
+      }
+    ]
+  },
+  {
+    "id": "heal",
+    "url": "https://bg3.wiki/wiki/Heal",
+    "name": "Heal",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d3/Heal_Icon.webp/40px-Heal_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-"
+  },
+  {
+    "id": "heroes-feast",
+    "url": "https://bg3.wiki/wiki/Heroes%27_Feast",
+    "name": "Heroes' Feast",
+    "icon": "https://bg3.wiki/w/images/thumb/a/a0/Heroes%27_Feast_Icon.webp/40px-Heroes%27_Feast_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "Self 18m / 60ft (Radius)",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "otiluke-s-freezing-sphere",
+    "url": "https://bg3.wiki/wiki/Otiluke%27s_Freezing_Sphere",
+    "name": "Otiluke's Freezing Sphere",
+    "icon": "https://bg3.wiki/w/images/thumb/a/af/Otiluke%27s_Freezing_Sphere_Icon.webp/40px-Otiluke%27s_Freezing_Sphere_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "1.5 m / 5 ft",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "10d6",
+        "damageType": "Cold"
+      }
+    ]
+  },
+  {
+    "id": "otto-s-irresistible-dance",
+    "url": "https://bg3.wiki/wiki/Otto%27s_Irresistible_Dance",
+    "name": "Otto's Irresistible Dance",
+    "icon": "https://bg3.wiki/w/images/thumb/8/8c/Otto%27s_Irresistible_Dance_Icon.webp/40px-Otto%27s_Irresistible_Dance_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "9 m /  30ft",
+    "type": "WIS save",
+    "damage": []
+  },
+  {
+    "id": "planar-ally",
+    "url": "https://bg3.wiki/wiki/Planar_Ally",
+    "name": "Planar Ally",
+    "icon": "https://bg3.wiki/w/images/thumb/f/f3/Planar_Ally_Icon.webp/40px-Planar_Ally_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "-",
+    "damage": []
+  },
+  {
+    "id": "sunbeam",
+    "url": "https://bg3.wiki/wiki/Sunbeam",
+    "name": "Sunbeam",
+    "icon": "https://bg3.wiki/w/images/thumb/6/63/Sunbeam_Icon.webp/40px-Sunbeam_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18m / 60ft",
+    "type": "CON save",
+    "damage": [
+      {
+        "dice": "6d8",
+        "damageType": "Radiant"
+      }
+    ]
+  },
+  {
+    "id": "wall-of-ice",
+    "url": "https://bg3.wiki/wiki/Wall_of_Ice",
+    "name": "Wall of Ice",
+    "icon": "https://bg3.wiki/w/images/thumb/d/d2/Wall_of_Ice_Icon.webp/40px-Wall_of_Ice_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "10 turns",
+    "range": "18 m /  60ft",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "10d6",
+        "damageType": "Cold"
+      },
+      {
+        "dice": "10d6",
+        "damageType": "Cold"
+      }
+    ]
+  },
+  {
+    "id": "wall-of-thorns",
+    "url": "https://bg3.wiki/wiki/Wall_of_Thorns",
+    "name": "Wall of Thorns",
+    "icon": "https://bg3.wiki/w/images/thumb/6/6e/Wall_of_Thorns_Icon.webp/40px-Wall_of_Thorns_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "-",
+    "range": "18 m / 60 ft",
+    "type": "DEX save",
+    "damage": [
+      {
+        "dice": "7d8",
+        "damageType": "Piercing"
+      }
+    ]
+  },
+  {
+    "id": "wind-walk",
+    "url": "https://bg3.wiki/wiki/Wind_Walk",
+    "name": "Wind Walk",
+    "icon": "https://bg3.wiki/w/images/thumb/0/06/Wind_Walk_Icon.webp/40px-Wind_Walk_Icon.webp.png",
+    "level": 6,
+    "upcast": false,
+    "action": "Action",
+    "duration": "Long Rest",
+    "range": "9 m /  30ft",
+    "type": "-",
+    "damage": []
+  }
+]
