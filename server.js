@@ -15,6 +15,20 @@ const spellsByClass = JSON.parse(
   readFileSync(join(__dirname, "data/spells-by-class.json"))
 );
 
+// /v1 (API index)
+fastify.get("/v1", async (request, reply) => {
+  return [
+    { path: "/v1/classes", description: "List of class ids" },
+    {
+      path: "/v1/classes/{name}/spells",
+      description: "List of spell ids for a class",
+    },
+    { path: "/v1/spells/{id}", description: "Info for one spell" },
+    { path: "/v1/assets/classes/{asset-name}", description: "Class icon PNG" },
+    { path: "/v1/assets/spells/{spell-id}", description: "Spell icon PNG" },
+  ];
+});
+
 fastify.get("/v1/classes", async (request, reply) => {
   return ["bard", "cleric", "druid", "sorcerer", "warlock", "wizard"];
 });
