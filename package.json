@@ -1,0 +1,24 @@
+{
+  "name": "inesdi-resources-server",
+  "version": "0.1.0",
+  "description": "Resources for the second/third exercise",
+  "homepage": "https://github.com/manuartero/INESDI2025-resources-p2#readme",
+  "bugs": {
+    "url": "https://github.com/manuartero/INESDI2025-resources-p2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuartero/INESDI2025-resources-p2.git"
+  },
+  "license": "MIT",
+  "author": "manutero.developer@gmail.com",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "5.4.0"
+  }
+}

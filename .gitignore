@@ -1,0 +1,16 @@
+# Node.js
+.env
+node_modules/
+dist/
+build/
+*.local
+coverage/
+
+# logs
+*.log
+npm-debug.log*
+
+# Optional: OS or editor files
+.DS_Store
+.idea/
+.vscode/
