@@ -5,6 +5,11 @@ import { dirname, join } from "path";
 
 const fastify = Fastify();
 
+// Register CORS plugin
+await fastify.register(import('@fastify/cors'), {
+  origin: true // Allow all origins, or specify specific domains
+});
+
 const PORT = process.env.PORT || 3000;
 
 const __filename = fileURLToPath(import.meta.url);
